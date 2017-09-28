@@ -10,6 +10,7 @@ namespace Labb_2_test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("test");
         }
     }
 }
