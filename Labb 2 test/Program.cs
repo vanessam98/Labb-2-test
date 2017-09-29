@@ -10,7 +10,12 @@ namespace Labb_2_test
     {
         static void Main(string[] args)
         {
+            Run();
 
+        }
+
+        public static double Run ()
+        { 
             Console.WriteLine("Hur många resenärer reser i sällskapet, mellan åldrarna 5-100?");
             string antalResenärer = Console.ReadLine();
             double antalResenärer2 = double.Parse(antalResenärer);
@@ -37,6 +42,8 @@ namespace Labb_2_test
 
 
             Console.WriteLine("Den totala kostnaden för sällskapet är:" + " " + sum);
+            Console.WriteLine();
+            return sum;
 
 
         }
